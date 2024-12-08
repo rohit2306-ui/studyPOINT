@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject Resources</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Subject Resources</h1>
+    </header>
+    <main>
+        <section id="subject-resources">
+            <h2 id="subjectTitle"></h2>
+            <div id="resources">
+                <button onclick="showSyllabus()">Syllabus</button>
+                <button onclick="showPastPapers()">Past Year Papers</button>
+                <button onclick="showLectures()">Lectures</button>
+            </div>
+            <div id="content">
+                <iframe id="resourceFrame" width="60%" frameborder="0"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 NCWEB Resources. All rights reserved.</p>
+    </footer>
+    <script src="subjectScript.js"></script>
+</body>
+</html>
